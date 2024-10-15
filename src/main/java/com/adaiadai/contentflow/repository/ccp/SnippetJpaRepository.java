@@ -29,7 +29,7 @@ public interface SnippetJpaRepository extends JpaRepository<Snippet, Long> {
 
     List<Snippet> findAllByCreator(Creator creator);
 
-    @Query(value = "select new org.mxframework.contentflow.representation.ccp.snippet.vo.SnippetCardVO(s.snippetId.id as snippetId" +
+    @Query(value = "select new com.adaiadai.contentflow.representation.ccp.snippet.vo.SnippetCardVO(s.snippetId.id as snippetId" +
             ", s.creator.identity as creatorIdentity" +
             ", s.title as title" +
             ", s.description as description" +
@@ -40,7 +40,7 @@ public interface SnippetJpaRepository extends JpaRepository<Snippet, Long> {
             "from Snippet s where scope=:scope")
     Page<SnippetCardVO> findAllByScope(@Param("scope") Integer scope, Pageable pageable);
 
-    @Query(value = "select new org.mxframework.contentflow.representation.ccp.snippet.vo.SnippetCardVO(s.snippetId.id as snippetId" +
+    @Query(value = "select new com.adaiadai.contentflow.representation.ccp.snippet.vo.SnippetCardVO(s.snippetId.id as snippetId" +
             ", s.creator.identity as creatorIdentity" +
             ", s.title as title" +
             ", s.description as description" +

@@ -34,7 +34,7 @@ public class Version extends IdentifiedEntityObject {
     @Embedded
     private ProjectId projectId;
 
-    @Column
+    @Column(name = "`rank`")
     private Integer rank;
 
     public Version(VersionId versionId, ProjectId projectId, String name, String description, Integer rank) {

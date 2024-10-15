@@ -168,14 +168,12 @@ public class BlogConstant {
     /**
      * TagDetailVO.color: 0：默认颜色
      *
-     * @see BlogTagVo#color
      */
     public static final Integer BLOG_TAG_VO_COLOR_DEFAULT = 0;
 
     /**
      * TagDetailVO.color: 1：自定义，样式1，颜色
      *
-     * @see BlogTagVo#color
      */
     public static final Integer BLOG_TAG_VO_COLOR_CUSTOM1 = 1;
 

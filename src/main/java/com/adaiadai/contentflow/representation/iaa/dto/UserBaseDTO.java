@@ -12,6 +12,9 @@ import com.adaiadai.contentflow.representation.iaa.UserBase;
 public class UserBaseDTO extends UserBase {
     private static final long serialVersionUID = 1L;
 
+    public UserBaseDTO() {
+    }
+
     public UserBaseDTO(UserBase userBase) {
         super(userBase);
     }

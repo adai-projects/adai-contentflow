@@ -32,7 +32,7 @@ public class Section extends IdentifiedValueObject {
     @Embedded
     private VersionId versionId;
 
-    @Column
+    @Column(name = "`rank`")
     private Integer rank;
 
     public Section(SectionId sectionId

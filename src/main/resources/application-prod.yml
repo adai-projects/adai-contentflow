@@ -4,7 +4,7 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mx_contentflow_prod?useSSL=false&serverTimezone=UTC&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/adai_contentflow_prod?useSSL=false&serverTimezone=UTC&characterEncoding=utf-8
     username: root
     password: K@ngda1992...
   jackson:
@@ -36,4 +36,5 @@ file:
   download-dir: /var/downloads/
 
 logging:
-  path: /root/adai-contentflow/logs
+  file:
+    path: /root/adai-contentflow/logs

@@ -20,8 +20,8 @@ import javax.servlet.http.HttpServletRequest;
 public class HttpAspect {
     private final static Logger logger = LoggerFactory.getLogger(HttpAspect.class);
 
-    @Pointcut("execution(public * org.mxframework.contentflow.controller.*.*.*(..)) " +
-            "|| execution(public * org.mxframework.contentflow.resource.*.*.*(..))")
+    @Pointcut("execution(public * com.adaiadai.contentflow.controller.*.*.*(..)) " +
+            "|| execution(public * com.adaiadai.contentflow.resource.*.*.*(..))")
     public void log() {
     }
 

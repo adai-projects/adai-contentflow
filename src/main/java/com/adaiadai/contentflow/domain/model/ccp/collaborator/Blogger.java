@@ -9,6 +9,9 @@ import javax.persistence.Embeddable;
 public final class Blogger extends AbstractCollaborator {
     private static final long serialVersionUID = 1L;
 
+    private String emailAddress;
+    private String nickname;
+
     public Blogger(String identity) {
         super(identity);
     }

@@ -33,7 +33,7 @@ public class Subject extends IdentifiedEntityObject {
      */
     @Embedded
     private VersionId versionId;
-    @Column
+    @Column(name = "`rank`")
     private Integer rank;
 
     public Subject(SubjectId subjectId

@@ -1,9 +1,5 @@
 package com.adaiadai.contentflow.constant.sis;
 
-import com.adaiadai.contentflow.representation.sis.tag.vo.TagAtProductVO;
-import com.adaiadai.contentflow.representation.sis.tag.vo.TagDetailVO;
-import com.adaiadai.contentflow.representation.sis.tag.vo.TagOfUserVO;
-
 /**
  * TagConstant: 用户标签常量
  *
@@ -54,42 +50,36 @@ public class TagConstant {
     /**
      * TagDetailVO.color: 0：默认颜色
      *
-     * @see TagDetailVO#color
      */
     public static final Integer TAG_VIEW_COLOR_DEFAULT = 0;
 
     /**
      * TagDetailVO.color: 1：自定义，样式1，颜色
      *
-     * @see TagDetailVO#color
      */
     public static final Integer TAG_VIEW_COLOR_CUSTOM1 = 1;
 
     /**
      * TagAtProductVO.labeled: 0-未标记
      *
-     * @see TagAtProductVO#labeled
      */
     public static final Integer TAG_OF_BLOG_IS_LABELED_NOT = 0;
 
     /**
      * TagAtProductVO.labeled: 1-已标记
      *
-     * @see TagAtProductVO#labeled
      */
     public static final Integer TAG_OF_BLOG_IS_LABELED_YES = 1;
 
     /**
      * TagOfUserVO.used: 0-未标记
      *
-     * @see TagOfUserVO#used
      */
     public static final Integer TAG_OF_USER_IS_USED_NOT = 0;
 
     /**
      * TagOfUserVO.used: 1-已标记
      *
-     * @see TagOfUserVO#used
      */
     public static final Integer TAG_OF_USER_IS_USED_YES = 1;
 

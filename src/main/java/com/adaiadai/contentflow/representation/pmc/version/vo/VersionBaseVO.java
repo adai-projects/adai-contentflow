@@ -13,5 +13,8 @@ import com.adaiadai.contentflow.representation.pmc.version.VersionBase;
 @EqualsAndHashCode(callSuper = true)
 public class VersionBaseVO extends VersionBase {
 
+    public VersionBaseVO() {
+    }
+
     public VersionBaseVO(VersionBase versionBase) {super(versionBase);}
 }

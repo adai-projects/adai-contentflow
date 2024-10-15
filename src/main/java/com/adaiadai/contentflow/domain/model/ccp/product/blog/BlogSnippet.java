@@ -27,7 +27,7 @@ public class BlogSnippet extends IdentifiedValueObject {
     @Column(name = "`blog_snippet_type`", columnDefinition = "tinyint unsigned COMMENT '类型'")
     private BlogSnippetType blogSnippetType;
 
-    @Column(name = "rank", nullable = false, columnDefinition = "tinyint unsigned COMMENT '排列'")
+    @Column(name = "`rank`", nullable = false, columnDefinition = "tinyint unsigned COMMENT '排列'")
     private Integer rank;
 
     public BlogSnippet(BlogId blogId, Snippet snippet, BlogSnippetType blogSnippetType, Integer rank) {
